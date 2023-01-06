@@ -11,4 +11,11 @@ public class Author {
     String getLastName() {
         return lastName;
     }
+    public String toString(){
+        return firstName+" "+lastName;
+    }
+    public int hashCode() {
+        return 1;
+    }
+
 }

@@ -21,4 +21,10 @@ public class Book {
 
         return yearPublication = a;
     }
+    public String toString(){
+        return name+" "+yearPublication+ ""+author;
+    }
+    public int hashCode() {
+        return 1;
+    }
 }
